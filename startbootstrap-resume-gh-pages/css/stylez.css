@@ -1,0 +1,61 @@
+/* This is what a comment looks like in CSS */
+/* Can still use command / */
+/* This is a p element selector
+This will affect any p element that has this .css file linked to it. */
+p{
+    color: seagreen;
+    font-family: sans-serif;
+    /* You have:
+    Content
+    then the padding
+    then the porder
+    then the margin
+    -called box model */
+    border: 3px solid black;
+    margin: 30px;
+    padding: 10px;
+
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cornsilk
+}
+
+/* this is a class selector
+It will affect anything that has class ="classname"
+
+usa a . to declare a class selector in the css file*/
+
+.specialtext{
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+    border: solid black 1px;
+}
+
+/* Element selector with state */
+
+a:hover{
+    color: rgb(255, 0, 0);
+    
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: cornsilk; /* Change the background color as needed */
+    color: #fafafa; /* Change the text color as needed */
+    padding: 10px 0; /* Adjust padding as needed */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  /* Additional styles for the content to prevent it from being overlapped by the fixed header */
+  .content {
+    margin-top: 50px; /* Adjust margin-top to accommodate the fixed header height */
+    /* Other styles for content */
+  }
+
+
+  
